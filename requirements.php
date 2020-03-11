@@ -105,24 +105,12 @@ $requirements = array(
         'name' => 'Memcache extension',
         'mandatory' => false,
         'condition' => extension_loaded('memcache') || extension_loaded('memcached'),
-        'by' => '<a href="http://www.yiiframework.com/doc-2.0/yii-caching-memcache.html">MemCache</a>',
-        'memo' => extension_loaded('memcached') ? 'To use memcached set <a href="http://www.yiiframework.com/doc-2.0/yii-caching-memcache.html#$useMemcached-detail">MemCache::useMemcached</a> to <code>true</code>.' : ''
-    ),
-    // CAPTCHA:
+        'by' => '<a href=s
     array(
-        'name' => 'GD PHP extension with FreeType support',
-        'mandatory' => false,
-        'condition' => $gdOK,
-        'by' => '<a href="http://www.yiiframework.com/doc-2.0/yii-captcha-captcha.html">Captcha</a>',
-        'memo' => $gdMemo,
+        '
     ),
     array(
-        'name' => 'ImageMagick PHP extension with PNG support',
-        'mandatory' => false,
-        'condition' => $imagickOK,
-        'by' => '<a href="http://www.yiiframework.com/doc-2.0/yii-captcha-captcha.html">Captcha</a>',
-        'memo' => $imagickMemo,
-    ),
+        '
     // PHP ini :
     'phpExposePhp' => array(
         'name' => 'Expose PHP',
